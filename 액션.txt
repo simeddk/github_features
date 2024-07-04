@@ -4,9 +4,13 @@ void ACDoAction_MagicBall::DoAction()
 
 	CheckFalse(Datas.Num() > 0);
 	CheckFalse(StateComp->IsIdleMode());
-
+	
+	CheckNull(StateComp);
 	StateComp->SetActionMode();
 	OwnerCharacter->PlayAnimMontage(Datas[0].AnimMontage, Datas[0].PlayRate, Datas[0].StartSection);
-
-	Datas[0].bCanMove ? AttributeComp->SetMove() : AttributeComp->SetStop();
+	
+	if (IsChanged(Datas[0].bCanMove))
+	{
+		Datas[0].bCanMove ? AttributeComp->SetMove() : AttributeComp->SetStop();
+	}
 }

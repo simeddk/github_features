@@ -7,10 +7,8 @@ void ACDoAction_MagicBall::DoAction()
 	
 	CheckNull(StateComp);
 	StateComp->SetActionMode();
+
 	OwnerCharacter->PlayAnimMontage(Datas[ComboCount].AnimMontage, Datas[ComboCount].PlayRate, Datas[ComboCount].StartSection);
-	
-	//There is no feature
-	{
-		Datas[0].bCanMove ? AttributeComp->SetMove() : AttributeComp->SetStop();
-	}
+
+	Datas[0].bCanMove ? AttributeComp->SetMove() : AttributeComp->SetStop();
 }

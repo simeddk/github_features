@@ -1,1 +1,12 @@
-나는 메인이다!!
+void ACDoAction_MagicBall::DoAction()
+{
+	Super::DoAction();
+
+	CheckFalse(Datas.Num() > 0);
+	CheckFalse(StateComp->IsIdleMode());
+
+	StateComp->SetActionMode();
+	OwnerCharacter->PlayAnimMontage(Datas[0].AnimMontage, Datas[0].PlayRate, Datas[0].StartSection);
+
+	Datas[0].bCanMove ? AttributeComp->SetMove() : AttributeComp->SetStop();
+}

@@ -2,5 +2,5 @@ TODO
 
 void ACDoAction_MagicBall::DoAction()
 {
-	TEST
+	//엄청 좋은 기능
 }

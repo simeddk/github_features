@@ -1,4 +1,4 @@
-QUIT
+TODO
 
 void ACDoAction_MagicBall::DoAction()
 {

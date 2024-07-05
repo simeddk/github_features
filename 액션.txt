@@ -1,3 +1,5 @@
+QUIT
+
 void ACDoAction_MagicBall::DoAction()
 {
 	TEST

@@ -4,6 +4,8 @@
 
 struct FEequipmentData
 {
-//Member1
-//Member2
+M1
+M2
 }
+
+UCDataAssets* DataAssets[7];

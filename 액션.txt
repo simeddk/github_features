@@ -1,6 +1,0 @@
-#include "CAction.h"
-#include "CActionData.h"
-#include "Components/CActoinComponent.h"
-
-UCDataAssets* DataAssets[7];
-UCData* Datas[7];

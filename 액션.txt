@@ -1,3 +1,9 @@
 #include "CAction.h"
 #include "CActionData.h"
 #include "Components/CActoinComponent.h"
+
+struct FEequipmentData
+{
+M1
+M2
+}

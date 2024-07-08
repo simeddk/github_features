@@ -7,3 +7,5 @@ struct FEequipmentData
 M1
 M2
 }
+
+UCDataAssets* DataAssets[7];

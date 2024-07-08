@@ -2,10 +2,5 @@
 #include "CActionData.h"
 #include "Components/CActoinComponent.h"
 
-struct FEequipmentData
-{
-M1
-M2
-}
-
 UCDataAssets* DataAssets[7];
+UCData* Datas[7];

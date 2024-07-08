@@ -1,6 +1,1 @@
-TODO
-
-void ACDoAction_MagicBall::DoAction()
-{
-	//엄청 좋은 기능
-}
+#include "CActionData.h"

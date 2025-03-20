@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/8b280d82-3860-4e9a-a907-525951274d3f)
 # 게임 `명조`를 모작한 멀티플레이 기반 게임
 
 ## 프로젝트 개요 (Project Overview)

@@ -22,7 +22,17 @@
 
 ---
 
-## 캐릭터 교체 시스템 (Character Switching System)
+## 목차 (인덱스)
+1. 캐릭터 교체 시스템
+2. 액션 시스템
+3. 전투 시스템
+4. 상호작용 시스템
+5. 적 AI 시스템
+6. 미니맵 및 UI 시스템
+7. 로그인 및 게임 참여 시스템
+8. 포트폴리오 영상 & 코드 링크
+
+## 1. 캐릭터 교체 시스템 (Character Switching System)
 ### 🛠 온필드, 오프필드 시스템 구현
 - 모작의 핵심 기능
 - 세명의 캐릭터를 제어. 일반 교체와 협주 교체 등 협동 스킬 구현
@@ -42,7 +52,7 @@
 
 ---
 
-## 액션 시스템 (Action System)
+## 2. 액션 시스템 (Action System)
 ### 🛠 캐릭터 교체 액션 및 네트워크 동기화
 - 상태 변경 관련된 버그에 특히 신경을 많이 썼습니다.(액션 캔슬 전용 애님노티파이 적용)
 - 액션 도중 캐릭터 교체와 같은 예외적인 상황을 대비하도록 설계되었습니다.
@@ -88,7 +98,7 @@ if (CanStart())
 
 ---
 
-## 전투 시스템 (Combat System)
+## 3. 전투 시스템 (Combat System)
 ### 🛠 전투의 흐름
 - 명조와 동일하게 타겟팅에 따라 액션 방향의 우선 순위를 실행할 수 있도록 하였습니다.
 - 적 캐릭터는 AI 기능을 활용하여 구현하였습니다.
@@ -110,7 +120,7 @@ if (CanStart())
 
 ---
 
-## 상호작용 시스템 (Interaction System)
+## 4. 상호작용 시스템 (Interaction System)
 ### 🛠 동작 방식
 - `UCInteractionInterface` 인터페이스를 상속받아 `Interact()` 함수 구현  
 - `F` 키 입력 시 `InteractionComponent`에서 Trace하여 주변의 상호작용 가능한 액터 탐색  
@@ -125,7 +135,7 @@ if (CanStart())
 
 ---
 
-## 적 AI 시스템 (Enemy AI System)
+## 5. 적 AI 시스템 (Enemy AI System)
 ### 🛠 언리얼 AI 및 리스폰 기능
 - `EnemyCharacter` 클래스로 구성, `NPCActionComponent`에서 공격 실행  
 - `AIController` 및 `Behavior Tree`를 활용하여 AI 상태 관리  
@@ -134,7 +144,7 @@ if (CanStart())
 
 
 ---
-## 미니맵 및 UI 시스템
+## 6. 미니맵 및 UI 시스템
 ### 🛠 실시간 미니맵과 인벤토리의 동적 로딩
 - `SceneCaptureComponent2D`를 활용한 실시간 미니맵 구현  
 - `WB_MainHUD`에서 스킬, 체력, 캐릭터 교체 UI 관리  
@@ -143,7 +153,7 @@ if (CanStart())
 
 ---
 
-## 로그인 및 게임 참여 시스템
+## 7. 로그인 및 게임 참여 시스템
 ### 🛠 DB 시스템을 활용한 로그인 인증
 - `Flask` 서버와 `MySQL`을 활용하여 HTTP `POST` 방식으로 유저 데이터 인증  
 - `GameInstance`에 `DBManager`를 생성하여 유저 데이터 관리  
@@ -151,7 +161,7 @@ if (CanStart())
 
 ---
 
-## 10. 포트폴리오 영상 & 코드 링크
+## 8. 포트폴리오 영상 & 코드 링크
 - 📌 **[포트폴리오 영상 보기](https://youtu.be/xxxxxxx](https://www.youtube.com/watch?v=EG2duBoVsuM))**  
 - 📌 **[GitHub 코드 확인](https://github.com/HyeonLang/UE4.25_RPG)**  
 - 📌 **[게임 데모 다운로드](https://github.com/HyeonLang/UE4.25_RPG)**  

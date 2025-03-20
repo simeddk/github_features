@@ -115,6 +115,7 @@ if (CanStart())
 - `UCInteractionInterface` 인터페이스를 상속받아 `Interact()` 함수 구현  
 - `F` 키 입력 시 `InteractionComponent`에서 Trace하여 주변의 상호작용 가능한 액터 탐색  
 - 서버 RPC 함수로 실행하여 모든 클라이언트에서 일관된 상호작용 보장
+
 ![image](https://github.com/user-attachments/assets/14162f50-8d52-4908-8889-e5474d82bedc)
 
 | 상호작용 대상 | 동작 |

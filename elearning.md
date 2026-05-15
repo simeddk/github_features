@@ -24,7 +24,7 @@
 
 ### media.html
 - 진행율 계산을 위한 테스트용 슬랄이더 아톰 남아 있음
-- <img width="1061" height="819" alt="image" src="https://github.com/user-attachments/assets/b9a4aebc-4f5d-4584-9c4f-20cbcf531bae" />
+- <img width="1029" height="786" alt="image" src="https://github.com/user-attachments/assets/f1216919-caed-4b1b-9fc2-15631b9d911c" />
 
 ### 그 외 요청사항
 - elearning.html 자격증 영역의 문구 수정 필요(As-Is : 1급.늘봄학교지도사/2급 : 취업준비 학생) => (To-Be : AI노코드활용전문가 1급, 2)

@@ -4,7 +4,7 @@
 
 ### ax_popup.html
 - 문의하기 버튼 클릭 시 업무규칙 에러
-<img width="874" height="404" alt="image" src="https://github.com/user-attachments/assets/68cd81e8-e5a3-4aff-bf88-26de313bea6a" />
+- <img width="874" height="404" alt="image" src="https://github.com/user-attachments/assets/68cd81e8-e5a3-4aff-bf88-26de313bea6a" />
 - SMTP 발송 유무 표시 제거 필요
 - <img width="768" height="268" alt="image" src="https://github.com/user-attachments/assets/f27da3f4-90f7-4574-9fac-cff787d32b9c" />
 
